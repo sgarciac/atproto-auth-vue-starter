@@ -1,0 +1,3 @@
+# A secret for cookie encryption. It must be at least 32 characters long.
+SECRET=01234567890123456789012345678901
+PRIVATE_JWK=<For local development you dont need a key, but you will need one when deployed>
