@@ -71,7 +71,7 @@ Steps:
 
 1. Run `npm run deploy`. This will create the [cloudflare worker](https://workers.cloudflare.com/), deploy your code and
    it will give you the project url
-2. You still need to set a `SECRET` and a `PRIVATE_KEY` secret variables in the workers project! You can generate random ones using the provided generator: `node node generate-secrets.js` and set them in your worker either via the cloudflare dashboard, or using wrangler. To use wrangler, inside your project, create a file with the generated `SECRET` and `PRIVATE_JWT`, such as:
+2. You still need to set a `SECRET` and a `PRIVATE_KEY` secret variables in the workers project! You can generate random ones using the provided generator: `node generate-secrets.js` and set them in your worker either via the cloudflare dashboard, or using wrangler. To use wrangler, inside your project, create a file with the generated `SECRET` and `PRIVATE_JWT`, such as:
 
 ```
 SECRET=Uc81EC8F3ZH6adV-j94ljsw2lDIfboQ0qkIGUBx-kW8
