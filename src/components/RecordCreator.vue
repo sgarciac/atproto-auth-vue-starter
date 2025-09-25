@@ -20,8 +20,8 @@ const namespace: Ref<string> = ref("ufos.are.real.sightings");
 const recordData: Ref<string> = ref(
   `{
     "location": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": "37.7749",
+      "longitude": "-122.4194"
     },
     "date": "2023-10-01T12:00:00Z",
     "witnesses": [
